@@ -1,0 +1,99 @@
+h1{
+    color: green;
+    text-align: center;
+} 
+
+.main{
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+} 
+
+ .left_container{
+    display: flex;
+    flex-direction: column;
+} 
+
+
+
+
+
+.element_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#ciasteczko{
+    width: 150px;
+    height: 150px;
+    background-color:  #d29c56;
+    /* border-color: 5px solid black; */
+    border-radius: 100px 100px 100px 100px;
+    /* display: inline-block; */
+    /* margin-left: 70px; */
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+
+.podsumowanie{
+    height: 50px;
+    width: 270px;
+    border: 2px solid black;
+    padding-left: 20px;
+    margin-top: 15px; 
+    /* display: inline-block; */
+    border-radius: 5px;
+}
+
+
+.center_container{
+    /* border-left: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.right_container{
+    /* border-left: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.ulepszenie_container{
+    padding-left: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 220px;
+    margin-top: 5px;
+}
+
+
+.ulepszenie_1_button{
+     margin-bottom: 10px;
+     background-color: #fedcba;
+}
+.ulepszenie_2_button{
+    margin-bottom: 10px;
+    background-color: #fedcba;
+}
+.ulepszenie_3_button{
+    margin-bottom: 10px;
+    background-color: #fedcba;
+}
+.ulepszenie_4_button{
+    margin-bottom: 10px;
+    background-color: #fedcba;
+}
+.ulepszenie_5_button{
+    margin-bottom: 10px;
+    background-color: #fedcba;
+}
+

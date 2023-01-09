@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script type="module" src="scripts.js"></script>
+    <title> GAME | Cookie Clicker </title>
+    <script type="module" src="main.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     
+    <h1> Cookie Clicker </h1>
+
+    <div class="main">
+
+        <div class="left_container">
+            <div class="podsumowanie">
+                <p> Całkowita ilość ciasteczek: <span id="razem_ciastek"> 1 </span> </p>
+            </div>
+
+            <div class="element_container">
+                <button id="ciasteczko" type="button"> Ciasteczko </button>
+            </div>
+
+            <div class="podsumowanie">
+                <p> Ciasteczka przez kliknięcie: <span id="licznik_klik">1 </span> </p>
+            </div>
+            <div class="podsumowanie">
+                <p> Ciasteczka przez czas: <span id="licznik_czas"> 0 </span> </p>
+            </div>
+        </div>
+
+
+
+        <div class="center_container">
+
+            <div class="ulepszenie_container">
+                <p> Poziom: <span class="ulepszenie1"> 1 </span> </p>
+                <p> Ciastka na sekunde: <span id = "ciastka_na_sekunde_ulep1"> 0 </span></p>
+                <button class="ulepszenie_1_button" type="button"> Koszt ulepszenia: <span id="koszt_ulepszenia_1"> </span> </button>
+            </div>
+
+            <div class="ulepszenie_container">
+                <p> Poziom: <span class="ulepszenie3"> 1 </span> </p>
+                <p> Ciastka na sekunde: <span id = "ciastka_na_sekunde_ulep3"> 0 </span></p>
+                <button class="ulepszenie_3_button" type="button"> Koszt ulepszenia: <span id="koszt_ulepszenia_3"> </span> </button>
+            </div>
+
+            <div class="ulepszenie_container">
+                <p> Poziom: <span class="ulepszenie5"> 1 </span> </p>
+                <p> Ciastka na sekunde: <span id = "ciastka_na_sekunde_ulep5"> 0 </span></p>
+                <button class="ulepszenie_5_button" type="button"> Koszt ulepszenia: <span id="koszt_ulepszenia_5"> </span> </button>
+            </div>
+        </div>
+
+
+
+        <div class="right_container">
+
+            <div class="ulepszenie_container">
+                <p> Poziom: <span class="ulepszenie2"> 1 </span> </p>
+                <p> Ciastka na sekunde: <span id = "ciastka_na_sekunde_ulep2"> 0 </span></p>
+                <button class="ulepszenie_2_button" type="button"> Koszt ulepszenia: <span id="koszt_ulepszenia_2"> </span> </button>
+            </div>
+
+            <div class="ulepszenie_container">
+                <p> Poziom: <span class="ulepszenie4"> 1 </span> </p>
+                <p> Ciastka na sekunde: <span id = "ciastka_na_sekunde_ulep4"> 0 </span></p>
+                <button class="ulepszenie_4_button" type="button"> Koszt ulepszenia: <span id="koszt_ulepszenia_4"> </span> </button>
+            </div>
+
+    </div>
+
 </body>
+
 </html>
